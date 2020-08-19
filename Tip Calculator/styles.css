@@ -1,0 +1,31 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#st_ff {
+    grid-column: 2/4;
+    grid-row: 2/4;
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 7fr;
+    background-color: antiquewhite;
+    border: darkgray 1.5px solid;
+    box-shadow: 10px 10px grey;
+    border-radius: 10px;
+}
+h1 {
+    text-align: center;
+}
+button {
+    background-color: rgb(241, 180, 159);
+    border: black solid 2px;
+    font-size: larger;
+    color: black;
+    border-radius: 10px
+}
+input {
+    border-radius: 10px
+}
