@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="race-registration.css" />
+    <title>Race Registration</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <h1>RACE REGISTRATION</h1>
+        <section>
+          <label for="firstname" class="lbl marg-top lbl-size"
+            >First Name</label
+          >
+          <input
+            class="inp-width marg-top-2"
+            type="text"
+            id="firstname"
+            name="firstname"
+            required
+          />
+        </section>
+
+        <section>
+          <label for="lastname" class="lbl marg-top lbl-size">Last Name</label>
+          <input
+            class="inp-width marg-top-2"
+            type="text"
+            id="lastname"
+            name="lastname"
+            required
+          />
+        </section>
+
+        <section>
+          <p class="marg-bottom marg-top lbl-size">Select a Race:</p>
+          <div>
+            <input type="radio" id="funrun" name="races" value="5K" />
+            <label for="funrun" class="lbl-size">Fun Run 5K</label>
+          </div>
+
+          <div>
+            <input type="radio" id="half" name="races" value="Half" />
+            <label for="half" class="lbl-size">Half Marathon</label>
+          </div>
+
+          <div>
+            <input type="radio" id="full" name="races" value="Full" />
+            <label for="full" class="lbl-size">Full Marathon</label>
+          </div>
+        </section>
+        <section>
+          <label for="email" class="lbl marg-top lbl-size">Email</label>
+          <input
+            class="inp-width marg-top-2"
+            type="email"
+            id="email"
+            name="email"
+            required
+          />
+        </section>
+
+        <section>
+          <label for="password" class="lbl marg-top lbl-size">Password</label>
+          <input
+            class="inp-width marg-top-2"
+            type="password"
+            id="password"
+            name="password"
+            required
+          />
+        </section>
+
+        <section>
+          <label for="age" class="lbl marg-top lbl-size"
+            >Select Age Group</label
+          >
+          <select name="age" id="age" class="marg-top-2 inp-width">
+            <option value="Under 18">Under 18</option>
+            <option value="18-30" selected>18-30</option>
+            <option value="30+">30+</option>
+          </select>
+        </section>
+
+        <div class="btn-container">
+          <button type="submit" class="btn-submit">SUBMIT</button>
+          <button type="reset" class="btn-reset">RESET</button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
