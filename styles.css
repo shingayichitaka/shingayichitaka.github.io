@@ -14,7 +14,8 @@ body {
 /*  font-family: 'Poppins', sans-serif;
     font-family: 'Roboto', sans-serif; */
 
-header {
+header,
+footer {
   margin: 0 auto;
   padding: 25px;
   background-color: #222831;
@@ -22,6 +23,7 @@ header {
   font-weight: 400;
   width: 100%;
 }
+
 main {
   width: 100%;
   margin: 0 auto;
