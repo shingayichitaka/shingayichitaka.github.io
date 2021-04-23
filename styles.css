@@ -123,7 +123,8 @@ h2 {
 }
 /* LEGEND FOR GRID PLACEMENTS FOR PROJECTS */
 /* 1 === RACE REGISTRATION FORM
- 2 === SIGN UP FORM */
+ 2 === SIGN UP FORM 
+ 3 === JOHNS PHOTO GALLERY*/
 
 .card-spot-1a {
   grid-row: 2/3;
@@ -144,6 +145,18 @@ h2 {
 }
 .card-spot-2b {
   grid-row: 5/6;
+  grid-column: 1/2;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
+.card-spot-3a {
+  grid-row: 6/7;
+  grid-column: 1/2;
+  justify-self: center;
+}
+.card-spot-3b {
+  grid-row: 7/8;
   grid-column: 1/2;
   justify-self: center;
   align-self: center;
@@ -179,7 +192,7 @@ h2 {
 
 @media screen and (min-width: 500px) {
   main {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     padding: 15px;
   }
@@ -189,7 +202,7 @@ h2 {
   .card {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-row-gap: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -221,6 +234,18 @@ h2 {
   }
   .card-spot-2b {
     grid-row: 3/4;
+    grid-column: 2/3;
+    justify-self: start;
+    align-self: center;
+    text-align: justify;
+  }
+  .card-spot-3a {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    justify-self: center;
+  }
+  .card-spot-3b {
+    grid-row: 4/5;
     grid-column: 2/3;
     justify-self: start;
     align-self: center;
@@ -239,7 +264,7 @@ h2 {
   .card {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-row-gap: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -271,6 +296,18 @@ h2 {
   }
   .card-spot-2b {
     grid-row: 3/4;
+    grid-column: 2/3;
+    justify-self: start;
+    align-self: center;
+    text-align: justify;
+  }
+  .card-spot-3a {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    justify-self: center;
+  }
+  .card-spot-3b {
+    grid-row: 4/5;
     grid-column: 2/3;
     justify-self: start;
     align-self: center;
@@ -290,7 +327,7 @@ h2 {
   .card {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
     grid-row-gap: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -322,6 +359,18 @@ h2 {
   }
   .card-spot-2b {
     grid-row: 3/4;
+    grid-column: 2/3;
+    justify-self: start;
+    align-self: center;
+    text-align: justify;
+  }
+  .card-spot-3a {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    justify-self: center;
+  }
+  .card-spot-3b {
+    grid-row: 4/5;
     grid-column: 2/3;
     justify-self: start;
     align-self: center;
