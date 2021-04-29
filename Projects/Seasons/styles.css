@@ -1,0 +1,221 @@
+/* 
+==================
+UTILITIES
+==================
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #311d3f;
+}
+nav {
+  width: 100%;
+  margin: 0 auto;
+}
+ul {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+li {
+  list-style-type: none;
+  font-family: "Merienda", cursive;
+  font-size: 1.5rem;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+li:hover {
+  background-color: rgba(206, 206, 206, 0.288);
+  text-decoration: 0.1rem rgb(255, 255, 255) underline;
+}
+.nav-link {
+  margin-right: 0.2rem;
+}
+ul li a {
+  color: rgb(233, 233, 233);
+}
+#logo {
+  margin-right: auto;
+  text-transform: uppercase;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  width: 100%;
+}
+.landing {
+  height: 100vh;
+  background-image: url(/Projects/Seasons/img/landing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.headliner {
+  /* width: auto;
+  margin: 0 auto; */
+  font-family: "Merienda", cursive;
+  font-size: 5rem;
+  color: rgb(34, 34, 34);
+  background-color: rgba(230, 230, 230, 0.445);
+  padding: 1rem;
+  border: 0.1rem solid rgba(34, 34, 34, 0.267);
+  box-shadow: 0.1rem 0.1rem 0.5rem 0.05rem rgb(63, 63, 63);
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 1rem;
+}
+img {
+  width: 100%;
+  height: auto;
+  border: 0.1rem solid black;
+  border-radius: 5%;
+  box-shadow: 0.1rem 0.1rem 0.5rem 0.05rem rgb(63, 63, 63);
+}
+footer {
+  background-color: #522546;
+  padding: 1.6rem;
+}
+footer p {
+  width: 80%;
+  margin: 0 auto;
+  bottom: 0;
+  text-align: center;
+  color: rgb(233, 233, 233);
+  font-size: 1.2rem;
+  font-family: "Merienda", cursive;
+}
+/* 
+===================
+GRID-LAYOUT-MOBILE
+===================
+*/
+.parent-container {
+  width: 95%;
+  margin: 0 auto;
+}
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.2 0.4 0.4;
+  grid-row-gap: 1.5rem;
+  margin: 2rem 0;
+  padding: 2rem;
+  border: 0.1rem solid rgba(136, 136, 136, 0.212);
+  border-top: none;
+  /* border-left: none; */
+  border-right: none;
+  background-image: linear-gradient(white, rgba(219, 219, 219, 0.336));
+  border-radius: 2.5%;
+}
+.container-heading {
+  grid-row: 1/2;
+  grid-column: 1/2;
+  text-align: center;
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-family: "Merienda", cursive;
+}
+.container-image {
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+.container-text {
+  grid-row: 3/4;
+  grid-column: 1/2;
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+}
+
+/* 
+================== 
+TABLETS
+==================
+*/
+@media screen and (min-width: 500px) {
+  .parent-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 700px) {
+  .parent-container {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 900px) {
+  .parent-container {
+    width: 40%;
+    margin: 0 auto;
+  }
+  li {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .parent-container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: 0.3fr 0.7fr;
+    grid-template-rows: 0.5fr 1fr;
+    grid-column-gap: 3rem;
+    grid-row-gap: 0;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+    padding: 2rem;
+    border: 0.1rem solid rgba(136, 136, 136, 0.212);
+    border-top: none;
+    /* border-left: none; */
+    border-right: none;
+    background-image: linear-gradient(white, rgba(219, 219, 219, 0.336));
+    border-radius: 2.5%;
+  }
+  .container-heading {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    text-align: left;
+    font-size: 3.5rem;
+    text-transform: uppercase;
+  }
+  .container-image {
+    grid-row: 1/3;
+    grid-column: 1/2;
+  }
+  .container-text {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    font-size: 2.5rem;
+  }
+}
+@media screen and (min-width: 1250px) {
+  .parent-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

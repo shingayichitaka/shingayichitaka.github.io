@@ -202,6 +202,18 @@ h2 {
   align-self: center;
   text-align: center;
 }
+.card-spot-5a {
+  grid-row: 10/11;
+  grid-column: 1/2;
+  justify-self: center;
+}
+.card-spot-5b {
+  grid-row: 11/12;
+  grid-column: 1/2;
+  justify-self: center;
+  align-self: center;
+  text-align: center;
+}
 
 /* ABOUT AND CONTACT GRID LAYOUT */
 .card-1 {
@@ -242,7 +254,7 @@ h2 {
   .card {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(6, auto);
     grid-row-gap: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -298,6 +310,18 @@ h2 {
   }
   .card-spot-4b {
     grid-row: 5/6;
+    grid-column: 2/3;
+    justify-self: start;
+    align-self: center;
+    text-align: left;
+  }
+  .card-spot-5a {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    justify-self: center;
+  }
+  .card-spot-5b {
+    grid-row: 6/7;
     grid-column: 2/3;
     justify-self: start;
     align-self: center;
@@ -316,7 +340,7 @@ h2 {
   .card {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(6, auto);
     grid-row-gap: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -372,6 +396,18 @@ h2 {
   }
   .card-spot-4b {
     grid-row: 5/6;
+    grid-column: 2/3;
+    justify-self: start;
+    align-self: center;
+    text-align: justify;
+  }
+  .card-spot-5a {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    justify-self: center;
+  }
+  .card-spot-5b {
+    grid-row: 6/7;
     grid-column: 2/3;
     justify-self: start;
     align-self: center;
@@ -391,7 +427,7 @@ h2 {
   .card {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr;
-    grid-template-rows: repeat(5, auto);
+    grid-template-rows: repeat(6, auto);
     grid-row-gap: 8px;
     margin-top: 10px;
     margin-bottom: 10px;
@@ -447,6 +483,18 @@ h2 {
   }
   .card-spot-4b {
     grid-row: 5/6;
+    grid-column: 2/3;
+    justify-self: start;
+    align-self: center;
+    text-align: justify;
+  }
+  .card-spot-5a {
+    grid-row: 6/7;
+    grid-column: 1/2;
+    justify-self: center;
+  }
+  .card-spot-5b {
+    grid-row: 6/7;
     grid-column: 2/3;
     justify-self: start;
     align-self: center;
