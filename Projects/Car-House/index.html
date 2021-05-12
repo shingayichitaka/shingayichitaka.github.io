@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700;900&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <title>Car House</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li id="logo"><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#promotion">Promotion</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="main-container">
+        <section id="home" class="main-opener">
+          <section class="main-opener-container">
+            <h1>We solve your car problems</h1>
+            <p class="main-opener-p">
+              Autopainting and collision repair shop. We help you turn the car
+              you drive back into the car you love.
+            </p>
+            <button class="contact-me">Contact Us</button>
+            <button class="appointment">Get Appointment</button>
+          </section>
+        </section>
+
+        <section class="about-us" id="about">
+          <section class="about-us-container">
+            <h2>Why Choose Us?</h2>
+            <section class="about-us-container-items">
+              <h3>Expert Mechanics</h3>
+              <img src="/Projects/Car-House/img/mechanic.jpg" alt="" />
+            </section>
+            <section class="about-us-container-items">
+              <h3>Reasonable Price</h3>
+              <img src="/Projects/Car-House/img/price.jpg" alt="" />
+            </section>
+            <section class="about-us-container-items">
+              <h3>24/7 Support</h3>
+              <img src="/Projects/Car-House/img/support.jpg" alt="" />
+            </section>
+          </section>
+        </section>
+
+        <section id="promotion" class="promotion-container">
+          <h2>Coming Soon...</h2>
+          <img src="/Projects/Car-House/img/promotion.jpg" alt="" />
+        </section>
+
+        <section class="contact-us-container">
+          <section class="contact-us" id="contact">
+            <form action="">
+              <h2>Book an appointment</h2>
+              <section class="form-sections">
+                <label for="fullname">Full Name</label>
+                <input type="text" name="fullname" id="fullname" required />
+              </section>
+              <section class="form-sections">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required />
+              </section>
+              <section class="form-sections">
+                <label for="phone">Phone</label>
+                <input type="number" name="phone" id="phone" required />
+              </section>
+              <section class="form-sections">
+                <label for="date">MM/DD/YY</label>
+                <input type="date" name="date" id="date" required />
+              </section>
+              <button class="btn-submit" type="Submit">Submit</button>
+            </form>
+          </section>
+        </section>
+      </section>
+    </main>
+    <footer>
+      <section class="footer-container">
+        <p>Made by Shingayi Chitaka &copy; 2021</p>
+      </section>
+    </footer>
+  </body>
+</html>
