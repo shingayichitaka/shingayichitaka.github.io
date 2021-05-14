@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #f8484879;
+  color: #333;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+main {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  /* background-color: #90fcf8c7; */
+  background-image: url("/Web-Components/Profile-card-component/img/backgr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 2rem;
+  box-shadow: 0.08rem 0.08rem 0.08rem 0.05rem rgba(68, 68, 68, 0.521);
+}
+.img-pos {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  border: 0.55rem solid rgba(255, 255, 255, 0.829);
+  border-radius: 50%;
+}
+.about {
+  grid-row: 3/4;
+  grid-column: 1/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.1rem solid rgba(99, 99, 99, 0.13);
+}
+.followers {
+  grid-row: 4/5;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-left-radius: 2rem;
+  border-right: 0.1rem solid rgba(99, 99, 99, 0.13);
+}
+.likes {
+  grid-row: 4/5;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-right: 0.1rem solid rgba(99, 99, 99, 0.13);
+}
+.photos {
+  grid-row: 4/5;
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-bottom-right-radius: 2rem;
+}
+.about,
+.followers,
+.likes,
+.photos {
+  background-color: white;
+}
+.head-text {
+  font-size: 2.2rem;
+  font-family: "Poppins", sans-serif;
+}
+.subtext {
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 250px) {
+  main {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 500px) {
+  main {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 600px) {
+  main {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 700px) {
+  main {
+    width: 30%;
+  }
+  .big-padding {
+    padding: 0.5rem;
+  }
+}
+@media screen and (min-width: 800px) {
+  main {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 900px) {
+  main {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  main {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1250px) {
+  main {
+    width: 20%;
+  }
+}
