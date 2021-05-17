@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  color: #333;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+main {
+  display: flex;
+  flex-direction: column-reverse;
+  background-color: #ffe5e29f;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+a {
+  text-decoration: none;
+  color: #333;
+  display: block;
+  font-size: 2.2rem;
+  font-family: "Merriweather", serif;
+}
+h1 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 4.2rem;
+  font-family: "Merriweather", serif;
+}
+p {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  color: #813d58;
+}
+span {
+  color: #a85073;
+}
+.hero-info-email {
+  margin-top: 1.8rem;
+  margin-bottom: 1.8rem;
+}
+label button {
+  display: block;
+  font-size: 1.8rem;
+  margin: 0.8rem auto;
+  padding: 0.38rem;
+  border: 0.1rem solid #813d58;
+  border-radius: 1rem;
+  background-color: #813d58;
+  color: white;
+  width: 90%;
+  font-family: "Roboto", sans-serif;
+}
+label button:hover {
+  background-color: rgb(235, 235, 235);
+  border: 0.1rem solid #222;
+  color: #333;
+}
+input {
+  font-size: 1.8rem;
+  border: 0.08rem solid #813d58;
+  border-radius: 1rem;
+  height: 2.5rem;
+  width: 90%;
+  text-align: center;
+  background-color: #ffe5e29f;
+  font-family: "Roboto", sans-serif;
+}
+.hero-img {
+  height: 60vh;
+  background-image: url("/Projects/Base-Apparell/img/2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero-info {
+  padding: 2rem;
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (min-width: 400px) {
+  label button,
+  input {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 500px) {
+  label button,
+  input {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 700px) {
+  .hero-info {
+    width: 50%;
+    padding: 2rem;
+    margin: 2rem auto;
+  }
+}
+@media screen and (min-width: 700px) {
+  main {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-info {
+    width: 50%;
+    align-self: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 2rem;
+  }
+  .hero-info-container {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .hero-img {
+    width: 50%;
+    height: 100vh;
+    background-image: url("/Projects/Base-Apparell/img/2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  label button,
+  input {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-info-container {
+    width: 50%;
+    margin: 0 auto;
+  }
+  a {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 7rem;
+  }
+  p {
+    font-size: 2.1rem;
+  }
+  label button,
+  input {
+    font-size: 2rem;
+  }
+  input {
+    height: 3.2rem;
+  }
+}
