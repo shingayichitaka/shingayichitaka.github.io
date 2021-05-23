@@ -295,19 +295,19 @@ h2 {
   justify-self: center;
 }
 .card-spot-12b {
-  grid-row: 26/27;
+  grid-row: 25/26;
   grid-column: 1/2;
   justify-self: center;
   align-self: center;
   text-align: center;
 }
 .card-spot-13a {
-  grid-row: 27/28;
+  grid-row: 26/27;
   grid-column: 1/2;
   justify-self: center;
 }
 .card-spot-13b {
-  grid-row: 28/29;
+  grid-row: 27/28;
   grid-column: 1/2;
   justify-self: center;
   align-self: center;
