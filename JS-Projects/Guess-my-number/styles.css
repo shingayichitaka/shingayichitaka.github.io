@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  text-align: center;
+  color: #333;
+  font-family: "Press Start 2P", cursive;
+  background-image: linear-gradient(45deg, #d3cce3, #e9e4f0);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  width: 100%;
+  padding: 1rem;
+  margin: 0 auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(90deg, #dd3e54, #6be585);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-size: 2.8rem;
+  margin: 1rem auto;
+}
+.hint {
+  font-size: 1.8rem;
+  margin: 1rem auto;
+}
+.randomNumber {
+  font-size: 2rem;
+  margin: 1rem auto;
+  border: 0.1rem solid rgb(197, 197, 197);
+  background-color: rgb(197, 197, 197);
+  border-radius: 1rem;
+  width: 30%;
+  padding: 1rem;
+}
+.numberInput {
+  font-size: 2rem;
+  margin: 1rem auto;
+  border: 0.1rem solid rgb(197, 197, 197);
+  border-radius: 1rem;
+  width: 50%;
+  padding: 1rem;
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 0 auto;
+}
+button {
+  font-family: "Press Start 2P", cursive;
+  text-align: center;
+  font-size: 1.8rem;
+  margin: 1rem auto;
+  border: 0.1rem solid rgb(197, 197, 197);
+  border-radius: 1rem;
+  width: 50%;
+  padding: 1rem;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.message {
+  font-size: 2rem;
+  margin: 1rem auto;
+}
+.trackScores {
+  font-size: 1.8rem;
+  margin: 1rem auto;
+}
+.check {
+  border: 0.1rem solid #6be585;
+  background-color: #6be585d7;
+}
+.reset {
+  border: 0.1rem solid #dd3e54;
+  background-color: #dd3e53d3;
+}
+@media screen and (min-width: 800px) {
+  body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  main {
+    width: 50%;
+    margin: 1rem auto;
+    height: auto;
+    border-radius: 2rem;
+    box-shadow: 0.1rem 0.1rem 0.8rem 0.1rem rgba(85, 85, 85, 0.815);
+  }
+}
+@media screen and (min-width: 1000px) {
+  main {
+    width: 40%;
+    margin: 1rem auto;
+  }
+}
+@media screen and (min-width: 1400px) {
+  main {
+    width: 30%;
+    margin: 1rem auto;
+  }
+}
+@media screen and (min-width: 1600px) {
+  main {
+    width: 25%;
+    margin: 1rem auto;
+  }
+}
