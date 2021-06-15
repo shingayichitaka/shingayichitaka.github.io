@@ -89,8 +89,7 @@ img {
   border-radius: 0.5rem;
 }
 img:hover {
-  transition: all 0.2s;
-  box-shadow: 0.5rem 0.5rem 0.1rem 0.5rem black;
+  box-shadow: 0.01rem 0.01rem 0.3rem 0.02rem black;
 }
 @media screen and (min-width: 500px) {
   .projects {
@@ -120,26 +119,6 @@ img:hover {
 @media screen and (min-width: 1000px) {
   .projects {
     width: 60%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    justify-content: center;
-    align-items: center;
-    grid-row-gap: 1.2rem;
-  }
-  .flex {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
-  .image {
-    width: 40%;
-  }
-  .text {
-    width: 60%;
-    text-align: left;
   }
   .hero-heading {
     font-size: 2.8rem;
