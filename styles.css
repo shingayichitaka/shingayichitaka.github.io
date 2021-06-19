@@ -24,6 +24,12 @@ nav {
   margin: 0 auto;
   background-color: #222831;
   color: rgb(235, 235, 235);
+  position: sticky;
+  top: 0;
+  width: 100%;
+  /* position: sticky;
+  top: 0;
+  width: 100%; REVISE THESE STYLES */
 }
 nav ul {
   margin: 10px;
