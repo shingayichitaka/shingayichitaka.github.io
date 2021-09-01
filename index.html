@@ -4,444 +4,154 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
     <title>Shingayi Chitaka</title>
   </head>
   <body>
     <nav>
       <ul>
-        <li><a href="#home" class="navbar-link">Home</a></li>
-        <li><a href="#projects" class="navbar-link">Projects</a></li>
-        <li><a href="#about" class="navbar-link">About</a></li>
-        <li><a href="#contact" class="navbar-link">Contact</a></li>
+        <li class="nav--ul--li--home"><a href="#home">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
-    <header>
-      <h1 id="home" class="intro-text-1">Hi, I’m Shingayi Chitaka.</h1>
-      <p>
-        I design and code beautifully simple things on the web, and I love what
-        I do.
-      </p>
-    </header>
     <main>
+      <section class="hero" id="home">
+        <section class="media--containers">
+          <div class="hero-container">
+            <h1>Shingayi Chitaka</h1>
+            <h2>Front-End Web Developer</h2>
+            <p>I design and code beautifully simple things on the web.</p>
+            <button class="hero-container--button">
+              <a href="#projects" target="_blank">Projects</a>
+            </button>
+          </div>
+        </section>
+      </section>
       <section class="card">
-        <h2 class="card-title" id="projects">Projects</h2>
-        <!--  TEMPLATE FOR PROJECTS SECTIONS FOR THE GRID ----BEGINNING   -->
-
-        <!-- // Szolaza -->
-
-        <a href="/Projects/Szolaza/index.html" target="_blank"
-          ><img
-            src="/img/szolaza.png"
-            alt="picture of Szolaza"
-            class="card-spot-1a"
-        /></a>
-        <div class="card-spot-1b">
-          <h3 class="intro-text-2">Szolaza</h3>
-          <p class="card-spot-2-text">
-            A page for Szolaza<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Szolaza/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // BASE APPAREL -->
-
-        <a href="/Projects/Base-Apparell/index.html" target="_blank"
-          ><img
-            src="/img/base.png"
-            alt="picture of base apparel"
-            class="card-spot-2a"
-        /></a>
-        <div class="card-spot-2b">
-          <h3 class="intro-text-2">Base Apparel</h3>
-          <p class="card-spot-2-text">
-            Landing page for Base Apparel<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Base-Apparell/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // myTunes -->
-
-        <a href="/Projects/myTunes/index.html" target="_blank"
-          ><img
-            src="/img/myTunes.png"
-            alt="picture of myTunes"
-            class="card-spot-3a"
-        /></a>
-        <div class="card-spot-3b">
-          <h3 class="intro-text-2">myTunes</h3>
-          <p class="card-spot-2-text">
-            A landing page for myTunes<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/myTunes/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Hubble -->
-
-        <a href="/Projects/Hubble/index.html" target="_blank"
-          ><img
-            src="/img/hubble.png"
-            alt="picture of Hubble"
-            class="card-spot-4a"
-        /></a>
-        <div class="card-spot-4b">
-          <h3 class="intro-text-2">Hubble</h3>
-          <p class="card-spot-2-text">
-            A page for Hubble<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Hubble/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Acme-Web-Solutions-->
-
-        <a href="/Projects/Acme-Web-Solutions/index.html" target="_blank"
-          ><img
-            src="/img/acme.png"
-            alt="picture of Acme-Web-Solutions"
-            class="card-spot-5a"
-        /></a>
-        <div class="card-spot-5b">
-          <h3 class="intro-text-2">Acme Web Solutions</h3>
-          <p class="card-spot-2-text">
-            A landing page for Acme Web Solutions<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Acme-Web-Solutions/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // MEET PROJECT -->
-
-        <a href="/Projects/Meet/index.html" target="_blank"
-          ><img
-            src="/img/meet-mockup.png"
-            alt="picture of a meet chat app"
-            class="card-spot-6a"
-        /></a>
-        <div class="card-spot-6b">
-          <h3 class="intro-text-2">Meet Chat</h3>
-          <p class="card-spot-2-text">
-            A website for the new meet chat app<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Meet/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // CAR HOUSE PROJECT-->
-
-        <a href="/Projects/Car-House/index.html" target="_blank"
-          ><img
-            src="/img/car-house.png"
-            alt="picture of a car washing company"
-            class="card-spot-7a"
-        /></a>
-        <div class="card-spot-7b">
-          <h3 class="intro-text-2">Car house</h3>
-          <p class="card-spot-2-text">
-            A website for the new car washing company.<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Car-House/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Styles Conference-->
-
-        <a href="/Projects/Styles-Conference/index.html" target="_blank"
-          ><img
-            src="/img/styles.png"
-            alt="picture of styles conference"
-            class="card-spot-8a"
-        /></a>
-        <div class="card-spot-8b">
-          <h3 class="intro-text-2">Styles Conference</h3>
-          <p class="card-spot-2-text">
-            A landing page for an upcoming conference<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Styles-Conference/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // SEASONS PROJECT -->
-
-        <a href="/Projects/Seasons/index.html" target="_blank"
-          ><img
-            src="/img/seasons-mock.png"
-            alt="picture of a seasons"
-            class="card-spot-9a"
-        /></a>
-        <div class="card-spot-9b">
-          <h3 class="intro-text-2">Seasons Website</h3>
-          <p class="card-spot-2-text">
-            A website containing generic images for all the seasons<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Seasons/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Single price grid component -->
-
-        <a
-          href="/Web-Components/Single-price-grid-component/index.html"
-          target="_blank"
-          ><img
-            src="/img/Single-price-grid-component.png"
-            alt="picture of a Single price grid component app"
-            class="card-spot-10a"
-        /></a>
-        <div class="card-spot-10b">
-          <h3 class="intro-text-2">Single price grid component</h3>
-          <p class="card-spot-2-text">
-            A website for the new Single price grid component.<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a
-            href="/Web-Components/Single-price-grid-component/index.html"
-            target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Profile-card-component -->
-
-        <a
-          href="/Web-Components/Profile-card-component/index.html"
-          target="_blank"
-          ><img
-            src="/img/Profile-card-component.png"
-            alt="picture of a profile card"
-            class="card-spot-11a"
-        /></a>
-        <div class="card-spot-11b">
-          <h3 class="intro-text-2">Profile card</h3>
-          <p class="card-spot-2-text">
-            A basic profile card<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a
-            href="/Web-Components/Profile-card-component/index.html"
-            target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // SIGN UP FORM -->
-
-        <a href="/Web-Components/Forms/Sign-Up-Form/index.html" target="_blank"
-          ><img
-            src="/img/sign-up-form.png"
-            alt="picture of a sign up form"
-            class="card-spot-12a"
-        /></a>
-        <div class="card-spot-12b">
-          <h3 class="intro-text-2">Sign Up Form</h3>
-          <p class="card-spot-2-text">
-            A simple sign up form <br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a
-            href="/Web-Components/Forms/Sign-Up-Form/index.html"
-            target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Testimonial Page -->
-
-        <a href="/Web-Components/Testimonial-page/index.html" target="_blank"
-          ><img
-            src="/img/testimonial.png"
-            alt="picture of Testimonial Page"
-            class="card-spot-13a"
-        /></a>
-        <div class="card-spot-13b">
-          <h3 class="intro-text-2">Testimonial Page</h3>
-          <p class="card-spot-2-text">
-            Simple Testimonial Page<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Web-Components/Testimonial-page/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // JOHNS PHOTO GALLERY -->
-
-        <a href="/Projects/John's-Photo-Gallery/index.html" target="_blank"
-          ><img
-            src="/img/johns-photo-gallery.png"
-            alt="picture of johns photo gallery"
-            class="card-spot-14a"
-        /></a>
-        <div class="card-spot-14b">
-          <h3 class="intro-text-2">John's Photo Gallery</h3>
-          <p class="card-spot-2-text">
-            A portfolio page for a photographer<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/John's-Photo-Gallery/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Mariam's Bakery -->
-
-        <a href="/Projects/Mariams-cupcake/index.html" target="_blank"
-          ><img
-            src="/img/bake.png"
-            alt="picture of Mariam's Bakery"
-            class="card-spot-15a"
-        /></a>
-        <div class="card-spot-15b">
-          <h3 class="intro-text-2">Mariam's Bakery</h3>
-          <p class="card-spot-2-text">
-            A page for Mariam's Bakery<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Mariams-cupcake/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // my Peace of Cake -->
-
-        <a href="/Projects/myPeaceofCake/index.html" target="_blank"
-          ><img
-            src="/img/cake.png"
-            alt="picture of Peace of Cake"
-            class="card-spot-16a"
-        /></a>
-        <div class="card-spot-16b">
-          <h3 class="intro-text-2">my Peace of Cake</h3>
-          <p class="card-spot-2-text">
-            A page for my Peace of Cake<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/myPeaceofCake/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // PRICING PANEL PROJECT -->
-
-        <a href="/Web-Components/Pricing-Panel/index.html" target="_blank"
-          ><img
-            src="/img/pricing-panel.png"
-            alt="picture of a pricing panel"
-            class="card-spot-17a"
-        /></a>
-        <div class="card-spot-17b">
-          <h3 class="intro-text-2">Pricing Panel</h3>
-          <p class="card-spot-2-text">
-            A pricing panel for different business packages<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Web-Components/Pricing-Panel/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // RACE REGISTRATION FORM -->
-        <a
-          href="/Web-Components/Forms/Race-Registration-Form/race-registration.html"
-          target="_blank"
-          ><img
-            src="/img/race-reg-form.png"
-            alt="picture of race registration form"
-            class="card-spot-18a"
-        /></a>
-        <div class="card-spot-18b">
-          <h3 class="intro-text-2">Race Registration Form</h3>
-          <p class="card-spot-2-text">
-            A simple registration form used for a race. <br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a
-            href="/Web-Components/Forms/Race-Registration-Form/race-registration.html"
-            target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Javscript Projects -->
-
-        <a href="/JS-Projects/index.html" target="_blank"
-          ><img
-            src="/img/js.png"
-            alt="picture of Javscript Projects"
-            class="card-spot-19a"
-        /></a>
-        <div class="card-spot-19b">
-          <h3 class="intro-text-2">Javscript Projects</h3>
-          <p class="card-spot-2-text">
-            A page for Javscript Projects<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/JS-Projects/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!--  TEMPLATE FOR PROJECTS SECTIONS FOR THE GRID ----END   -->
+        <section class="media--containers">
+          <hr />
+          <h2>Skills</h2>
+          <section class="card--logos">
+            <div>
+              <img src="/img/html.png" alt="logo of html" />
+              <h3>HTML</h3>
+            </div>
+            <div>
+              <img src="/img/css.png" alt="logo of css" />
+              <h3>CSS</h3>
+            </div>
+            <div>
+              <img src="/img/javascript.png" alt="logo of javascript" />
+              <h3>JAVASCRIPT</h3>
+            </div>
+          </section>
+        </section>
       </section>
-      <hr class="breaks" />
-      <section class="card-1">
-        <h2 id="about" class="card-pos-1">About</h2>
-        <!-- <p class="card-pos-2">
-          I'm a Front-End Web Developer currently studying a BSc in Computer
-          Science. I enjoy making clean and user friendly web applications, and
-          I find the learning process that comes from each new web development
-          to be thoroughly satisfying. I hope you will find a project that you
-          like on this site. Enjoy!
-          <a href="#projects"><button class="btn-about">#PROJECTS</button></a>
-        </p> -->
-        <p class="card-pos-2">
-          I'm a Front-End Web Developer who enjoys making clean and user
-          friendly web applications, and I find the learning process that comes
-          from each new web development to be thoroughly satisfying. I hope you
-          will find a project that you like on this site. Enjoy!
-          <a href="#projects"><button class="btn-about">#PROJECTS</button></a>
-        </p>
+      <section class="card" id="projects">
+        <section class="media--containers--projects">
+          <h2>Projects</h2>
+          <section class="card--project--sections">
+            <!-- <a href="javascript:void(0);" class="card--project--sections--link">
+              <div>
+                <img src="/img/web-design.png" alt="picture of web design" />
+                <h3>WEB DESIGN</h3>
+              </div>
+            </a> -->
+            <a
+              href="javascript:void(0);"
+              class="card--project--sections--link"
+              target="_blank"
+            >
+              <div>
+                <img
+                  src="/img/javascript-projects.png"
+                  alt="picture of javascript project"
+                />
+                <h3>JS PROJECTS</h3>
+              </div>
+            </a>
+            <a
+              href="javascript:void(0);"
+              class="card--project--sections--link"
+              target="_blank"
+            >
+              <div>
+                <img
+                  src="/img/javascript-projects.png"
+                  alt="picture of javascript project"
+                />
+                <h3>JS PROJECTS</h3>
+              </div>
+            </a>
+            <a
+              href="javascript:void(0);"
+              class="card--project--sections--link"
+              target="_blank"
+            >
+              <div>
+                <img
+                  src="/img/javascript-projects.png"
+                  alt="picture of javascript project"
+                />
+                <h3>JS PROJECTS</h3>
+              </div>
+            </a>
+          </section>
+
+          <a
+            href="/projects/projects.html"
+            target="_blank"
+            class="card--project--button--link"
+            ><button class="card--project--button">See More</button></a
+          >
+        </section>
       </section>
-      <hr class="breaks" />
-      <section class="card-1">
-        <h2 id="contact" class="card-pos-1">Contact</h2>
-        <p class="card-pos-2">
-          If you like my work and would like to reach me, just send me a direct
-          message via email and I'll be sure to respond.
-        </p>
-        <a href="mailto:shingayidambudzochitaka@gmail.com"
-          ><button class="btn-contact">Email</button></a
-        >
+      <section class="card" id="about">
+        <section class="media--containers">
+          <h2>About</h2>
+          <p>
+            I'm a Front-End Web Developer who enjoys making clean and user
+            friendly web applications, and I find the learning process that
+            comes from each new web application to be thoroughly satisfying. I
+            hope you will find a project that you like on this site. Enjoy!
+          </p>
+        </section>
+      </section>
+      <section class="card" id="contact">
+        <section class="media--containers">
+          <h2>Contact</h2>
+          <p>
+            If you like my work and would like to reach me, just send me a
+            direct message via email and I'll be sure to respond.
+          </p>
+          <button>
+            <!-- <a href="mailto: shingayidambudzochitaka@gmail.com">Email</a> -->
+            <a href="javascript:void(0);">Email</a>
+          </button>
+        </section>
       </section>
     </main>
     <footer>
-      <p>Made by Shingayi Chitaka &copy; 2021</p>
+      <p>&copy; 2021 Shingayi Chitaka. All Rights Reserved</p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
