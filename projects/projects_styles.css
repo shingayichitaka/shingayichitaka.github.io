@@ -71,11 +71,7 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: left;
-}
-img {
-  width: 35%;
-  height: auto;
-  margin: 0.25rem auto;
+  border-radius: 0.5rem;
 }
 
 /* UTILITIES */
@@ -122,6 +118,7 @@ img {
   width: 35%;
   height: auto;
   margin: 0.25rem auto;
+  border-radius: 0.5rem;
 }
 
 /* SLIM PHONES */
@@ -154,9 +151,11 @@ img {
     align-items: center;
     text-align: center;
     margin: 1rem auto;
-    border: 0.1rem solid #222831;
+    border: 0.1rem solid #d6d6d6e1;
+    background-color: #fbf7f0;
     border-radius: 0.4rem;
     padding: 1rem;
+    box-shadow: 0.01rem 0.01rem 0.2rem 0.01rem #d6d6d6e1;
   }
 }
 @media screen and (min-width: 500px) {
@@ -175,7 +174,7 @@ img {
   }
   img {
     width: 35%;
-    padding: 2rem;
+    padding: 1.5rem;
   }
 }
 @media screen and (min-width: 600px) {
