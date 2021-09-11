@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="/Web-Components/Forms/Race_Registration_Form/race_registration_form.css"
+    />
+    <title>Race Registration</title>
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <h1>Race Registration</h1>
+        <section class="form--block">
+          <label for="firstName">First Name</label>
+          <input
+            type="text"
+            name="firstName"
+            id="firstName"
+            class="form--block--input"
+            required
+          />
+        </section>
+        <section class="form--block">
+          <label for="lastName">Last Name</label>
+          <input
+            type="text"
+            name="lastName"
+            id="lastName"
+            class="form--block--input"
+            required
+          />
+        </section>
+        <section class="form--block">
+          <h2>Select a Race:</h2>
+          <div>
+            <input
+              type="radio"
+              name="raceOptions"
+              id="funRun5k"
+              value="funRun5k"
+            />
+            <label for="funRun5k" class="form--block--div--label--inline"
+              >Fun Run 5K</label
+            >
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="raceOptions"
+              id="halfMarathon"
+              value="halfMarathon"
+            />
+            <label for="halfMarathon" class="form--block--div--label--inline"
+              >Half Marathon</label
+            >
+          </div>
+          <div>
+            <input
+              type="radio"
+              name="raceOptions"
+              id="fullMarathon"
+              value="fullMarathon"
+            />
+            <label for="fullMarathon" class="form--block--div--label--inline"
+              >Full Marathon</label
+            >
+          </div>
+        </section>
+        <section class="form--block">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="form--block--input"
+            required
+          />
+        </section>
+        <section class="form--block">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="form--block--input"
+            required
+          />
+        </section>
+        <section class="form--block">
+          <label for="ageGroup">Select Age Group</label>
+          <select name="ageGroup" id="ageGroup">
+            <option value="under18">Under 18</option>
+            <option value="18-30">18-30</option>
+            <option value="30+">30+</option>
+          </select>
+        </section>
+        <button type="submit" class="button--submit">SUBMIT</button>
+        <button type="reset" class="button--reset">RESET</button>
+      </form>
+    </main>
+  </body>
+</html>

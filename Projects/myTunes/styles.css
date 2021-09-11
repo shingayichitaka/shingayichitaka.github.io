@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #fff;
+  color: #444;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 95%;
+}
+.hero {
+  height: 100vh;
+  background-image: url("/Projects/myTunes/img/2.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.music {
+  padding: 1rem;
+  background-image: url("/Projects/myTunes/img/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+footer {
+  background-image: url("/Projects/myTunes/img/5.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  color: #fff;
+}
+.space {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+img {
+  display: block;
+  width: 80%;
+  height: auto;
+  margin: 1rem auto;
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem 0.1rem 0.1rem rgba(109, 109, 109, 0.274);
+}
+h1 {
+  font-size: 5rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 800;
+}
+h2 {
+  font-size: 2.4rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.9rem;
+  font-family: "Rubik", sans-serif;
+  font-weight: 500;
+}
+p {
+  font-size: 1.6rem;
+}
+button {
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+  background-color: #f44336;
+  color: #fff;
+  border: 0.1rem solid #f44336;
+  border-radius: 0.1rem;
+  font-size: 1.4rem;
+  font-family: "Open Sans", sans-serif;
+}
+@media screen and (min-width: 500px) {
+  .container {
+    width: 80%;
+  }
+  .hero,
+  .music,
+  .collection,
+  footer {
+    flex-direction: row;
+  }
+  img {
+    width: 60%;
+  }
+  button {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 800px) {
+  .container {
+    width: 70%;
+  }
+  img {
+    width: 50%;
+  }
+  button {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 60%;
+  }
+  img {
+    width: 40%;
+  }
+  button {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 50%;
+  }
+  img {
+    width: 50%;
+  }
+  button {
+    width: 30%;
+  }
+  h1 {
+    font-size: 8rem;
+  }
+  h2 {
+    font-size: 4rem;
+  }
+  h3 {
+    font-size: 2.5rem;
+  }
+  p {
+    font-size: 2rem;
+  }
+  button {
+    font-size: 1.8rem;
+  }
+  .hero,
+  .music,
+  .collection,
+  footer {
+    padding: 2rem;
+  }
+}

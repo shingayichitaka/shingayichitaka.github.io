@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  text-align: center;
+  color: #171717;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(45deg, #c9d6ff, #e2e2e2);
+}
+main {
+  width: 95%;
+  margin: 0 auto;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  border: 0.1rem solid #171717a4;
+  box-shadow: 0.01rem 0.01rem 0.1rem 0.01rem #171717;
+  background-image: linear-gradient(45deg, #ece9e6, #ffffff);
+}
+h1 {
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 2.8rem;
+}
+input,
+button {
+  display: block;
+  width: 100%;
+  margin: 1rem auto;
+  padding: 1rem;
+  font-size: 1.6rem;
+  border-radius: 0.05rem;
+  text-align: center;
+}
+p {
+  margin: 1rem auto;
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+.reset {
+  background-color: #b00149;
+  border: 0.1rem solid #b00149;
+  color: #fff;
+}
+.bebasNeue-1 {
+  border: 0.1rem solid #171717;
+  background-color: #171717;
+  color: #fff;
+}
+.lobster-1 {
+  border: 0.1rem solid #171717;
+  background-color: #171717;
+  color: #fff;
+}
+.bangers-1 {
+  border: 0.1rem solid #171717;
+  background-color: #171717;
+  color: #fff;
+}
+.bebasNeue {
+  font-family: "Bebas Neue", cursive;
+}
+.lobster {
+  font-family: "Lobster", cursive;
+}
+.bangers {
+  font-family: "Bangers", cursive;
+}
+
+@media screen and (min-width: 500px) {
+  main {
+    width: 60%;
+  }
+  .container {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 700px) {
+  main {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 900px) {
+  main {
+    width: 35%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  main {
+    width: 25%;
+  }
+}
+@media screen and (min-width: 1400px) {
+  main {
+    width: 30%;
+  }
+}

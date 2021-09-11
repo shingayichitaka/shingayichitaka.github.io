@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  text-align: center;
+  color: #444;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-image: linear-gradient(180deg, #f7efd7d3, #ffffff);
+}
+main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#content {
+  width: 90%;
+  height: 100%;
+  margin: 1.5rem auto;
+  background-image: url("/JS-Projects/background-image-slider/img/1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2rem;
+  border: 0.1rem solid rgba(151, 150, 150, 0.452);
+  box-shadow: 0.1rem 0.1rem 1rem 0.3rem rgba(151, 150, 150, 0.452);
+}
+.container {
+  width: 90%;
+  margin: 1.5rem auto;
+}
+button {
+  display: block;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem;
+  background-color: #333;
+  color: #fff;
+  border: 0.5rem solid #fff;
+  border-radius: 1rem;
+}
+button:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 600px) {
+  #content,
+  .container {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #content,
+  .container {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #content,
+  .container {
+    width: 40%;
+  }
+  button {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 1600px) {
+  #content,
+  .container {
+    width: 30%;
+  }
+}
