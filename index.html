@@ -4,299 +4,135 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Staatliches&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
-      href="/favicons/apple-touch-icon.png"
+      href="favicon_io/apple-touch-icon.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="/favicons/favicon-32x32.png"
+      href="favicon_io/favicon-32x32.png"
     />
     <link
       rel="icon"
       type="image/png"
       sizes="16x16"
-      href="/favicons/favicon-16x16.png"
+      href="favicon_io/favicon-16x16.png"
     />
-    <link rel="manifest" href="/favicons/site.webmanifest" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
     <link rel="stylesheet" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto&display=swap"
-      rel="stylesheet"
-    />
     <title>Shingayi Chitaka</title>
   </head>
   <body>
-    <nav>
-      <ul>
-        <li><a href="#home" class="navbar-link">Home</a></li>
-        <li><a href="#projects" class="navbar-link">Projects</a></li>
-        <li><a href="#about" class="navbar-link">About</a></li>
-        <li><a href="#contact" class="navbar-link">Contact</a></li>
-      </ul>
-    </nav>
     <header>
-      <h1 id="home" class="intro-text-1">
-        Shingayi Chitaka <br />
-        Front-End Web Developer
-      </h1>
-      <p>I design and code beautifully simple things on the web.</p>
+      <nav class="responsive-container">
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
     </header>
     <main>
-      <section class="card">
-        <h2 class="card-title" id="projects">Projects</h2>
-        <!--  TEMPLATE FOR PROJECTS SECTIONS FOR THE GRID ----BEGINNING   -->
-
-        <!-- // Szolaza -->
-
-        <a href="/Projects/Szolaza/index.html" target="_blank"
-          ><img
-            src="/img/szolaza.png"
-            alt="picture of Szolaza"
-            class="card-spot-1a"
-        /></a>
-        <div class="card-spot-1b">
-          <h3 class="intro-text-2">Szolaza</h3>
-          <p class="card-spot-2-text">
-            A page for Szolaza<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Szolaza/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
+      <section id="hero">
+        <div class="responsive-container">
+          <p class="hero-text">Hi, my name is</p>
+          <h1>Shingayi Chitaka</h1>
+          <p class="hero-text">Front-End Web Developer</p>
+          <p class="hero-text">I build things for the web.</p>
         </div>
-
-        <!-- // BASE APPAREL -->
-
-        <a href="/Projects/Base-Apparell/index.html" target="_blank"
-          ><img
-            src="/img/base.png"
-            alt="picture of base apparel"
-            class="card-spot-2a"
-        /></a>
-        <div class="card-spot-2b">
-          <h3 class="intro-text-2">Base Apparel</h3>
-          <p class="card-spot-2-text">
-            Landing page for Base Apparel<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Base-Apparell/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // myTunes -->
-
-        <a href="/Projects/myTunes/index.html" target="_blank"
-          ><img
-            src="/img/myTunes.png"
-            alt="picture of myTunes"
-            class="card-spot-3a"
-        /></a>
-        <div class="card-spot-3b">
-          <h3 class="intro-text-2">myTunes</h3>
-          <p class="card-spot-2-text">
-            A landing page for myTunes<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/myTunes/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // MEET PROJECT -->
-
-        <a href="/Projects/Meet/index.html" target="_blank"
-          ><img
-            src="/img/meet-mockup.png"
-            alt="picture of a meet chat app"
-            class="card-spot-4a"
-        /></a>
-        <div class="card-spot-4b">
-          <h3 class="intro-text-2">Meet Chat</h3>
-          <p class="card-spot-2-text">
-            A website for the new meet chat app<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Projects/Meet/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Single price grid component -->
-
-        <a
-          href="/Web-Components/Single-price-grid-component/index.html"
-          target="_blank"
-          ><img
-            src="/img/Single-price-grid-component.png"
-            alt="picture of a Single price grid component app"
-            class="card-spot-5a"
-        /></a>
-        <div class="card-spot-5b">
-          <h3 class="intro-text-2">Single price grid component</h3>
-          <p class="card-spot-2-text">
-            A website for the new Single price grid component.<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a
-            href="/Web-Components/Single-price-grid-component/index.html"
-            target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Profile-card-component -->
-
-        <a
-          href="/Web-Components/Profile-card-component/index.html"
-          target="_blank"
-          ><img
-            src="/img/Profile-card-component.png"
-            alt="picture of a profile card"
-            class="card-spot-6a"
-        /></a>
-        <div class="card-spot-6b">
-          <h3 class="intro-text-2">Profile card</h3>
-          <p class="card-spot-2-text">
-            A basic profile card<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a
-            href="/Web-Components/Profile-card-component/index.html"
-            target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // SIGN UP FORM -->
-
-        <a
-          href="/Web-Components/Forms/Signup_Form/signup_form.html"
-          target="_blank"
-          ><img
-            src="/img/signup.png"
-            alt="picture of a sign up form"
-            class="card-spot-7a"
-        /></a>
-        <div class="card-spot-7b">
-          <h3 class="intro-text-2">Sign Up Form</h3>
-          <p class="card-spot-2-text">
-            A simple sign up form <br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a
-            href="/Web-Components/Forms/Signup_Form/signup_form.html"
-            target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // PRICING PANEL PROJECT -->
-
-        <a href="/Web-Components/Pricing-Panel/index.html" target="_blank"
-          ><img
-            src="/img/pricing-panel.png"
-            alt="picture of a pricing panel"
-            class="card-spot-8a"
-        /></a>
-        <div class="card-spot-8b">
-          <h3 class="intro-text-2">Pricing Panel</h3>
-          <p class="card-spot-2-text">
-            A pricing panel for different business packages<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/Web-Components/Pricing-Panel/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // RACE REGISTRATION FORM -->
-        <a
-          href="/Web-Components/Forms/Race_Registration_Form/race_registration_form.html"
-          target="_blank"
-          ><img
-            src="/img/racereg.png"
-            alt="picture of race registration form"
-            class="card-spot-9a"
-        /></a>
-        <div class="card-spot-9b">
-          <h3 class="intro-text-2">Race Registration Form</h3>
-          <p class="card-spot-2-text">
-            A simple registration form used for a race. <br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a
-            href="/Web-Components/Forms/Race_Registration_Form/race_registration_form.html"
-            target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!-- // Javscript Projects -->
-
-        <a href="/JS-Projects/index.html" target="_blank"
-          ><img
-            src="/img/js.png"
-            alt="picture of Javscript Projects"
-            class="card-spot-10a"
-        /></a>
-        <div class="card-spot-10b">
-          <h3 class="intro-text-2">Javscript Projects</h3>
-          <p class="card-spot-2-text">
-            A page for Javscript Projects<br />
-            The technologies used were HTML5 and CSS3
-          </p>
-          <a href="/JS-Projects/index.html" target="_blank"
-            ><button class="btn-project">Visit Website</button></a
-          >
-        </div>
-
-        <!--  TEMPLATE FOR PROJECTS SECTIONS FOR THE GRID ----END   -->
       </section>
-      <hr class="breaks" />
-      <section class="card-1">
-        <h2 id="about" class="card-pos-1">About</h2>
-        <!-- <p class="card-pos-2">
-          I'm a Front-End Web Developer currently studying a BSc in Computer
-          Science. I enjoy making clean and user friendly web applications, and
-          I find the learning process that comes from each new web development
-          to be thoroughly satisfying. I hope you will find a project that you
-          like on this site. Enjoy!
-          <a href="#projects"><button class="btn-about">#PROJECTS</button></a>
-        </p> -->
-        <p class="card-pos-2">
-          <!-- I'm a Front-End Web Developer who enjoys making clean and user
-          friendly web applications, and I find the learning process that comes
-          from each new web development to be thoroughly satisfying. I hope you
-          will find a project that you like on this site. Enjoy!
-          <a href="#projects"><button class="btn-about">#PROJECTS</button></a> -->
-          I'm a Front-End Web Developer who enjoys making clean and user
-          friendly web applications, and I find the learning process that comes
-          from each new web application to be thoroughly satisfying. I hope you
-          will find a project that you like on this site. Enjoy!
-        </p>
+      <section id="about">
+        <div class="responsive-container">
+          <h2>About</h2>
+          <p>
+            I make clean user friendly web applications, and find the learning
+            process that comes from each new project thoroughly satisfying. I am
+            currently looking for new opportunities. Do not hesitate to write to
+            me!
+          </p>
+        </div>
       </section>
-      <hr class="breaks" />
-      <section class="card-1">
-        <h2 id="contact" class="card-pos-1">Contact</h2>
-        <p class="card-pos-2">
-          If you like my work and would like to reach me, just send me a direct
-          message via email and I'll be sure to respond.
-        </p>
-        <a href="mailto:shingayidambudzochitaka@gmail.com"
-          ><button class="btn-contact">Email</button></a
-        >
+      <section id="skills">
+        <div class="responsive-container">
+          <h2>Skills</h2>
+          <ul>
+            <li>Html</li>
+            <li>Css</li>
+            <li>Javascript</li>
+          </ul>
+        </div>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <section class="project-container responsive-container">
+          <div class="project-container-block">
+            <h3>Project 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              quia.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              quia.
+            </p>
+          </div>
+          <div class="project-container-block">
+            <h3>Project 2</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              quia.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              quia.
+            </p>
+          </div>
+          <div class="project-container-block">
+            <h3>Project 3</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              quia.
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+              quia.
+            </p>
+          </div>
+        </section>
+        <section class="project-container-more">
+          <h3>Want to see more?</h3>
+          <button>
+            <a href="Project_500/Project_500.html" target="_blank"
+              >Yes please!</a
+            >
+          </button>
+        </section>
+      </section>
+
+      <section id="contact">
+        <div class="responsive-container">
+          <h2>Contact</h2>
+          <p>
+            If you like my work and would like to reach me, send me an email and
+            I'll be sure to respond.
+          </p>
+        </div>
       </section>
     </main>
     <footer>
-      <p>Made by Shingayi Chitaka &copy; 2021</p>
+      <p>&copy; Shingayi Chitaka 2021</p>
     </footer>
   </body>
 </html>
