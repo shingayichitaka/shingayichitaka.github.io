@@ -10,6 +10,8 @@ html {
 body {
   color: #333;
   text-align: left;
+  background-color: #99a799;
+  font-family: "Poppins", sans-serif;
 }
 main {
   display: flex;
@@ -44,12 +46,20 @@ div {
   width: 80%;
 }
 button {
-  border: 0.5rem solid #8dec8483;
+  border: 0.1rem solid #8dec8483;
   background-color: #8dec8483;
+  border-radius: 0.2rem;
   padding: 1rem;
   margin: 1rem auto;
   font-size: 1.3rem;
   width: 100%;
+  font-family: "Poppins", sans-serif;
+}
+button:hover {
+  background-color: #519259;
+  border: 0.1rem solid #519259;
+  cursor: pointer;
+  color: #fff;
 }
 h2 {
   margin: 1rem auto;
