@@ -130,18 +130,16 @@ button {
   font-size: 1.25rem;
   margin: 0.5rem auto;
   border-radius: 0.2rem;
-  border: 0.05rem solid #404e5ca6;
-  background-color: #404e5ca6;
+  border: 0;
+  background-color: #404e5c;
   color: #e5e5e5;
   /* border: 0.05rem solid #da913d;
   background-color: #da913d; */
-  color: #1c1e20;
+  color: #fff;
 }
 button:hover {
   cursor: pointer;
-  border: 0.05rem solid #404e5ca6;
-  background-color: #e5e5e5;
-  color: #404e5ca6;
+  background-color: #263341;
 }
 button a {
   color: #e5e5e5;
@@ -166,11 +164,6 @@ img {
 a {
   text-decoration: none;
 }
-/* #contact p,
-#about p,
-.project-container-block p {
-  text-align: left;
-} */
 
 @media screen and (min-width: 500px) {
   .responsive-container {
@@ -178,8 +171,9 @@ a {
     margin: 0 auto;
   }
   .project-container-block {
-    width: 90%;
+    width: 70%;
   }
+
   section {
     padding: 1rem;
   }
@@ -206,7 +200,8 @@ a {
     margin: 0 auto;
   }
   .project-container-block {
-    width: 70%;
+    padding: 1rem;
+    width: 60%;
   }
   section {
     padding: 1.25rem;
@@ -307,7 +302,7 @@ a {
     padding: 1rem;
   }
   .project-container-block {
-    width: 100%;
+    width: 50%;
     padding: 2rem;
     margin: 0.5rem 0.75rem;
   }
