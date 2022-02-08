@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon_io/site.webmanifest" />
+    <link rel="stylesheet" href="tipCalculator.css" />
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <main>
+      <h1>Tip Calculator</h1>
+
+      <div>
+        <label for="bill">Bill Amount</label>
+        <input type="number" name="bill" id="bill" class="bill" />
+      </div>
+      <div>
+        <label for="num">Number of People</label>
+        <input type="number" name="num" id="num" class="num" />
+      </div>
+      <div>
+        <label for="percentageTip">Percentage Tip</label>
+        <input
+          type="number"
+          name="percentageTip"
+          id="percentageTip"
+          class="percentageTip"
+        />
+      </div>
+      <button class="calculate">Calculate</button>
+
+      <div>
+        <label for="totalAmount">Total Amount</label>
+        <input
+          type="text"
+          name="totalAmount"
+          id="totalAmount"
+          class="totalAmount"
+          readonly
+        />
+      </div>
+      <div>
+        <label for="amtPerPerson">Amount per person</label>
+        <input
+          type="text"
+          name="amtPerPerson"
+          id="amtPerPerson"
+          class="amtPerPerson"
+          readonly
+        />
+      </div>
+      <button class="reset">Reset</button>
+    </main>
+    <script src="tipCalculator.js"></script>
+  </body>
+</html>
