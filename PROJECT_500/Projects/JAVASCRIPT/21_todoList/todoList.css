@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  scroll-behavior: smooth;
+}
+body {
+  color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: "Barlow", sans-serif;
+  background-image: url(img/wave-haikei.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  padding: 1rem;
+  border-radius: 0.25rem;
+}
+h1 {
+  font-size: 3rem;
+}
+.container {
+  margin: 1rem auto;
+}
+input {
+  font-family: "Barlow", sans-serif;
+  padding: 1rem;
+}
+button {
+  font-family: "Barlow", sans-serif;
+  padding: 1rem;
+  width: 30%;
+}
+button:hover {
+  cursor: pointer;
+}
+.para-style {
+  background-color: #1b1b1b;
+  padding: 1rem;
+  margin: 0.5rem auto;
+  color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+}
+.delete-style {
+  background-color: rgb(99, 5, 5);
+  color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+}
+.delete-style:hover {
+  background-color: rgb(80, 4, 4);
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.container-toDoItems {
+  width: 100%;
+}
+#addedItem {
+  width: 68%;
+  border: 0;
+  border-radius: 0.25rem;
+  background-color: rgb(173, 172, 172);
+}
+.add {
+  background-color: #1b1b1b;
+  color: #fff;
+  border: 0;
+  border-radius: 0.25rem;
+}
+.add:hover {
+  background-color: #302f2f;
+}
+@media screen and (min-width: 700px) {
+  main {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  main {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1100px) {
+  main {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1300px) {
+  main {
+    width: 50%;
+  }
+}
+@media screen and (min-width: 1500px) {
+  main {
+    width: 40%;
+  }
+}
