@@ -98,6 +98,20 @@ nav ul li:hover a {
 section {
   padding: 0.75rem;
 }
+.contactMe a {
+  color: #1b1b1b;
+  background-color: #fff;
+}
+.contactMe {
+  color: #1b1b1b;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.contactMe:hover {
+  color: #1b1b1b;
+  background-color: #fff;
+}
 
 /* FONT SIZES */
 h1 {
