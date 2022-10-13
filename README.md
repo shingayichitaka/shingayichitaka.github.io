@@ -3,15 +3,15 @@
 
 - 🌱 I’m currently learning **React.js**
 
-- 👨‍💻 All of my projects are available at [https://project-500.netlify.app/](https://project-500.netlify.app/)
+- 👨‍💻 All of my projects are available at my website: <a href="https://project-500.netlify.app/" target="_blank">PROJECT 500 </a//project-500.netlify.app/>
 
 - 📫 How to reach me **shingayidambudzochitaka@gmail.com**
 
-- 📄 Know about my experiences [https://www.linkedin.com/in/shingayi-chitaka-394765232/](https://www.linkedin.com/in/shingayi-chitaka-394765232/)
+- 📄 Know about my experiences on my <a href="https://www.linkedin.com/in/shingayi-chitaka-394765232/" target="_blank">LinkedIn</a>
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/shingayi chitaka" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shingayi chitaka" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/shingayi-chitaka-394765232?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Ba6UYF5ulSUeJ9rfyMv3nrQ%3D%3D" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shingayi chitaka" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
