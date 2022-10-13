@@ -3,7 +3,7 @@
 
 - 🌱 I’m currently learning **React.js**
 
-- 👨‍💻 All of my projects are available at my website: <a href="https://project-500.netlify.app/" target="_blank">PROJECT 500 </a//project-500.netlify.app/>
+- 👨‍💻 All of my projects are available at my website: <a href="https://project-500.netlify.app/" target="_blank">PROJECT 500 </a>
 
 - 📫 How to reach me **shingayidambudzochitaka@gmail.com**
 
