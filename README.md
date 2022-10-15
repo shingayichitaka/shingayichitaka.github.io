@@ -1,5 +1,5 @@
-<h1 align="center">Hi 👋, I'm Shingayi Chitaka</h1>
-<h3 align="center">A passionate software engineer who builds things for the web.</h3>
+<h1 align="left">Hi 👋, I'm Shingayi Chitaka</h1>
+<h3 align="left">A passionate software engineer who builds things for the web.</h3>
 
 - 🌱 I’m currently learning **React.js**
 
