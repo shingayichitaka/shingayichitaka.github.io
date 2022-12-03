@@ -196,6 +196,9 @@ body .work .project-container .project-block .project-container-text .project-co
   margin-left: 0;
   margin-right: 1rem;
 }
+body .work .project-container .project-block .project-container-text .project-container-links .icons {
+  width: 5%;
+}
 body .contact {
   background-color: #0f0e17;
   display: flex;
